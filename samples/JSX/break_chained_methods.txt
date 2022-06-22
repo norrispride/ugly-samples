@@ -4,7 +4,8 @@ this.$("#fileName").val().addClass("disabled")
     .prop("disabled", true)
 
 function doStuff() {
-if (oParameters.State !== ui().s2p().mm().supplinvoice().manage().util().Constants().blabla()) {
+if (oParameters.State !== ui().s2p().mm().supplinvoice().manage().util().Constants()
+.blabla()) {
 return false;
 }
 }
